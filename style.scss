@@ -1,0 +1,57 @@
+body{
+ background-image: url("./craciun.jpg");
+background-size: cover;
+}
+
+header{
+    img{
+        height:22rem;
+        opacity: 0.4;
+    }
+    h5, p{
+        color:  black;
+        font-size: 50px;
+        font-family: 'Corinthia', cursive;
+        font-size: bold;
+    }
+    
+}
+
+#midle{
+    position: absolute;
+    top: 44%;
+    width: 100%;
+    text-align: center;
+    
+    img{
+        width: 25rem;
+        height: 28rem;
+
+    }
+}
+
+
+main{
+    #santa-img{
+        border: 2px solid red;
+        border-radius:65%;
+    }
+}
+
+
+footer{
+    background-color: lightblue;
+
+   h4{
+    margin-top: 38rem;
+    text-align: center;
+   }
+
+
+    img{
+        margin-top: 20rem;
+        width:100%;
+        opacity: 0.4;
+        height: 15rem
+    }
+}
