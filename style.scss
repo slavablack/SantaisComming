@@ -36,14 +36,21 @@ main{
         border: 2px solid red;
         border-radius:65%;
     }
+    #test:hover{
+        background-color:#c4cbc4;
+            }
+            #para{
+                color: rgb(8, 8, 6);
+                font-size: 2rem;
+            }
 }
 
 
 footer{
     background-color: lightblue;
-
+    padding: auto;
    h4{
-    margin-top: 38rem;
+    margin-top: 40rem;
     text-align: center;
    }
 
@@ -54,4 +61,6 @@ footer{
         opacity: 0.4;
         height: 15rem
     }
+
+  
 }

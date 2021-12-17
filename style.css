@@ -32,12 +32,22 @@ main #santa-img {
   border-radius: 65%;
 }
 
+main #test:hover {
+  background-color: #c4cbc4;
+}
+
+main #para {
+  color: #080806;
+  font-size: 2rem;
+}
+
 footer {
   background-color: lightblue;
+  padding: auto;
 }
 
 footer h4 {
-  margin-top: 38rem;
+  margin-top: 40rem;
   text-align: center;
 }
 
