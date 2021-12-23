@@ -1,7 +1,7 @@
 let citate=[];
-citate.push("Christmas will always be as long as we stand heart to heart and hand in hand. ")
-citate.push("test");
-citate.push("tesztutzt");
+citate.push("„Colindele de Crăciun sunt bogăţia sufletului şi zâmbetul îngerilor.” – Betty Marcovici")
+citate.push("Crăciunul flutură o baghetă magică deasupra acestei lumi şi sub ea totul este mai blând şi mai frumos" );
+citate.push(" „Nu vă faceţi griji în privinţa dimensiunii unui brad. Oricât ar fi de mic, pentru copii va fi mare.” – Larry Wilde");
 
 
 function clickfunction () {

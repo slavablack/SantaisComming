@@ -16,6 +16,16 @@ header h5, header p {
 }
 
 #midle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  wrap: nowrap;
   position: absolute;
   top: 44%;
   width: 100%;
@@ -27,18 +37,66 @@ header h5, header p {
   height: 28rem;
 }
 
+main #mosu {
+  display: inline;
+}
+
 main #santa-img {
   border: 2px solid red;
   border-radius: 65%;
 }
 
 main #test:hover {
-  background-color: #c4cbc4;
+  background-color: #f11f10;
+}
+
+main #test {
+  border: 3px solid gold;
+  border-radius: 35%;
+  background-color: lightgray;
+  -webkit-animation-name: button;
+          animation-name: button;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation: button 5s infinite;
+          animation: button 5s infinite;
+}
+
+@-webkit-keyframes button {
+  0% {
+    border-color: red;
+  }
+  25% {
+    border-color: yellow;
+  }
+  50% {
+    border-color: blue;
+  }
+  100% {
+    border-color: red;
+  }
+}
+
+@keyframes button {
+  0% {
+    border-color: red;
+  }
+  25% {
+    border-color: yellow;
+  }
+  50% {
+    border-color: blue;
+  }
+  100% {
+    border-color: red;
+  }
 }
 
 main #para {
   color: #080806;
   font-size: 2rem;
+  float: center;
+  text-align: center;
 }
 
 footer {

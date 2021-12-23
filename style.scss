@@ -18,6 +18,10 @@ header{
 }
 
 #midle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    wrap:nowrap;
     position: absolute;
     top: 44%;
     width: 100%;
@@ -32,16 +36,42 @@ header{
 
 
 main{
+ #mosu{
+     display: inline;
+ }
+
+//  #rechts{
+//     float: right;
+//     text-align: justify;
+ 
+//  }
+
     #santa-img{
         border: 2px solid red;
         border-radius:65%;
     }
     #test:hover{
-        background-color:#c4cbc4;
+        background-color:#f11f10;
             }
+            #test{
+                 border: 3px solid gold;
+                border-radius: 35%;
+                background-color:lightgray;
+                animation-name: button;
+                animation-duration: 4s;
+                animation: button 5s infinite;
+            }
+            @keyframes button {
+                0%   {border-color: red;}
+                25%  {border-color: yellow;}
+                50%  {border-color: blue;}
+                100% {border-color:red;}
+              }
             #para{
                 color: rgb(8, 8, 6);
                 font-size: 2rem;
+                float: center;
+                text-align: center;
             }
 }
 
